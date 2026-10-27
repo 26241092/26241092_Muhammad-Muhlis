@@ -1,23 +1,17 @@
 # LATIHAN MANDIRI PERTEMUAN 3
 
 nama = input("Muhammad Muhlis")
-nim = input("26241092")
+nim = int(input("26241092"))
 prodi = input("teknologi informasi")
-dua_digit_nim = input("92")
+dua_digit_nim = int(input("92"))
 
-print("=====IDENTITAS MAHASISWA=====")
-print("nama : ")
+print("========output========")
+print("nama        :", Muhammad_Muhlis)
+print("nim         :", 26241092)
+print("prodi       :", Teknologi_informasi)
+print("2 digit nim :", 92)
 
-
-m = "Muhammad Muhlis"
-print("nilai m :", m)
-print("bertipe data :", type(m))
-l = 26241092
-print("nilai l :", l)
-print("bertipe data :", type(l))
-i = "teknologi informasi"
-print("nilai i :", i)
-print("bertipe data :", type(i))
-s = 92
-print("nilai s :", s)
-print("bertipe data :", type(s))
+print("tipe data nama       :", type(Muhammad_Muhlis))
+print("tipe data nim        :", type(26241092))
+print("tipe data prodi      :", type(Teknologi_informasi))
+print("tipe data 2 digit nim:", type(92))
